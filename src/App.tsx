@@ -1,10 +1,11 @@
-import './App.css'
+import './index.css'
+import { BottomPanel } from './components/BottomPanel'
 
 function App() {
   return (
-    <>
-      <div className=''>Hello World</div>
-    </>
+    <main className="tw:bg-amber-600">
+      Hello World
+    </main>
   )
 }
 
