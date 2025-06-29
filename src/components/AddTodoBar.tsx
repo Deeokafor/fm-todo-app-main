@@ -1,5 +1,9 @@
-export default function AddTodo() {
+function AddTodoBar() {
     return (
-        <div></div>
+        <>
+        
+        </>
     );
 }
+
+export { AddTodoBar };
