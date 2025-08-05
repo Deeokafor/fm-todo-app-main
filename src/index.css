@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import "tailwindcss" prefix(tw);
 
 @theme {
-    
+    --color-todo-strong-cyan: hsl(171, 66%, 44%);
+    --color-clipboard-light-blue: hsl(233, 100%, 69%);
+    --color-clipboard-grayish-blue: hsl(240, 2%, 79%);
+    --color-clipboard-very-dark-blue: hsl(207, 13%, 34%);
+    --font-josefin-sans: 'Josefin Sans', sans-serif;
+    --spacing-desktop-px-sm: 9rem;
+    --spacing-desktop-px-lg: 18rem;
+    --spacing-desktop-px-2xl: 30rem;
+    --spacing-tab-px: 9.125rem;
 }

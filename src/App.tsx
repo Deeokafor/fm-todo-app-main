@@ -6,15 +6,15 @@ import { BottomPanel } from './components/BottomPanel'
 function App() {
   return (
     <>
-      <main className="tw:text-center tw:w-full tw:h-min-screen tw:h-screen tw:flex tw:justify-center">
+      <main className="tw:text-center tw:w-full tw:h-min-screen tw:h-screen tw:flex tw:justify-center tw:font-josefin-sans">
         <div className="tw:bg-[url(public/bg-mobile-light.jpg)] tw:w-full tw:h-[300px] tw:bg-no-repeat tw:bg-cover tw:fixed tw:-z-20"></div>
 
-        <div className='tw:w-[80%]'>
+        <div className='tw:w-[80%] tw:font-semibold tw:text'>
           <TodoHeader />
           <AddTodoBar />
           <TodoList />
           <BottomPanel />      
-          <footer className="tw:">drag and drop to reorder list.</footer>
+          <footer className="tw:mt-14 tw:capitalize">drag and drop to reorder list.</footer>
         </div>
 
       </main>
