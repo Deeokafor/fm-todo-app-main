@@ -2,13 +2,23 @@
 @import "tailwindcss" prefix(tw);
 
 @theme {
-    --color-todo-strong-cyan: hsl(171, 66%, 44%);
-    --color-clipboard-light-blue: hsl(233, 100%, 69%);
-    --color-clipboard-grayish-blue: hsl(240, 2%, 79%);
-    --color-clipboard-very-dark-blue: hsl(207, 13%, 34%);
+    /* ruleset for light theme */
+    --color-todo-lt-very-light-gray: hsl(0, 0%, 98%);
+    --color-todo-lt-very-light-grayish-blue: hsl(236, 33%, 92%);
+    --color-todo-lt-light-grayish-blue: hsl(233, 11%, 84%);
+    --color-todo-lt-dark-grayish-blue: hsl(236, 9%, 61%);
+    --color-todo-lt-very-dark-grayish-blue: hsl(235, 19%, 35%);
+
+    /* ruleset for dark theme */
+    --color-todo-dt-very-dark-blue: hsl(235, 21%, 11%);
+    --color-todo-dt-very-dark-desaturated-blue: hsl(235, 24%, 19%);
+    --color-todo-dt-light-grayish-blue: hsl(234, 39%, 85%);
+    --color-todo-dt-light-grayish-blue-\(hover\): hsl(236, 33%, 92%);
+    --color-todo-dt-dark-grayish-blue: hsl(234, 11%, 52%);
+    --color-todo-dt-very-dark-grayish-blue: hsl(233, 14%, 35%);
+    --color-todo-dt-very-dark-grayish-blue: hsl(237, 14%, 26%);
+    
     --font-josefin-sans: 'Josefin Sans', sans-serif;
-    --spacing-desktop-px-sm: 9rem;
-    --spacing-desktop-px-lg: 18rem;
-    --spacing-desktop-px-2xl: 30rem;
-    --spacing-tab-px: 9.125rem;
+
+    /* --spacing-desktop-px-sm: 9rem; */
 }
